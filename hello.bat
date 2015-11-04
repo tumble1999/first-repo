@@ -1,3 +1,4 @@
 @echo off
-echo Hello World
+set /p m=Enter Your Name: 
+echo Hello, %m%!
 pause
